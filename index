@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>RS School</title>
+</head>
+<body>
+	<header>
+		<h1 class="title">Here will be Header</h1>
+	</header>
+	<main>
+		<section>
+			<div class="description">
+				Here will be Text
+			</div>
+		</section>
+	</main>
+	<footer>
+		<div class="bottom">
+			Here will be Footer
+		</div>
+	</footer>
+</body>
+</html>
