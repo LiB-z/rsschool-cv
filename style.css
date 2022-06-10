@@ -1,0 +1,22 @@
+.title {
+	text-transform: uppercase;
+	margin-bottom: 20px;
+	padding: 10px 20px;
+	color: brown;
+	font-size: 3rem;
+}
+.description {
+	padding: 10px 20px;
+	margin-bottom: 40px;
+	font-style: italic;
+	color:  gray;
+	font-size: 1rem;
+}
+.bottom {
+	text-transform: uppercase;
+	padding: 10px 20px;
+	font-weight: 700;
+	color:  gray;
+	font-size: 2rem;
+	opacity: 0.25;
+}
