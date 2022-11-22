@@ -160,7 +160,7 @@ nav ul {
   height: 0px;
   background: linear-gradient(0deg, rgba(224,173,102,0) 15%, rgba(228,184,123,0.7961266782103467) 30%, rgba(228,183,120,1) 36%, rgba(238,199,134,1) 44%, rgba(255,224,153,1) 50%, rgba(229,186,126,1) 62%, rgba(229,186,126,0.8) 69%, rgba(229,186,126,0) 86%);
   transform: rotate(-45deg);
-  animation: blink 1.6s 1.5s;
+  animation: blink 1.2s 1.5s;
 }
 .avatar span::after {
   content: '';
@@ -418,18 +418,22 @@ nav ul {
   font-weight: 500;
 }
 
-.progress {
+progress[value] {
   height: 10px;
   width: 60%;
   margin-top: 10px;
   background: #696969;
   border-radius: 5px;
 }
-.progress span {
-  display: block;
+.skills__list progress[value]::-webkit-progress-bar {
+  -webkit-appearance: none;
+  appearance: none;
+  border-radius: 5px;
+}
+.skills__list progress[value]::-webkit-progress-value {
+  -webkit-appearance: none;
+  appearance: none;
   border-radius: 5px 0 0 5px;
-  height: 100%;
-  width: var(--wth);
   background: #e09866;
 }
 
@@ -484,13 +488,13 @@ footer {
   color: #bdbec1;
   border-radius: 0 0 20px 20px;
 }
-
+.git a {
+  display: flex;
+  align-items: center;
+}
 .git span {
   color: #bdbec1;
-}
-.git:hover img {
-  -webkit-filter: url(#filter_G);
-          filter: url(#filter_G);
+  margin-left: 10px;
 }
 .git:hover span {
   color: #e09866;
