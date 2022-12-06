@@ -149,7 +149,6 @@ nav ul {
   border: 7px solid #e09866;
   width: 100%;
   height: auto;
-  background: no-repeat url('./img/photo.png');
   background-size: cover;
   z-index: 2;
 }
