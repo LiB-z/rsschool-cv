@@ -1,12 +1,114 @@
 @charset "UTF-8";
 
-html, body, div, span, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, section, ul, li {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
-  text-decoration: none;
+:root {
+  --dark-bg: #1d1d1d;
+}
+
+/* ---------- Общие настройки ---------- */
+
+* {
+  box-sizing: border-box;
   list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #fff;
+  color: #222;
+}
+
+.resume {
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 32% 68%;
+}
+
+header {
+  & nav {
+    background: var(--dark-bg);
+  }
+
+  & ul {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    padding: .25rem;
+    color: #fff;
+    gap: 10px;
+
+    & a {
+      color: inherit;
+      text-decoration: none;
+      font-size: 12px;
+    }
+  }
+}
+
+.resume__sidebar {
+  background: var(--dark-bg);
+  color: #fff;
+}
+
+.resume__photo {
+  margin: 0;
+
+  & img {
+    display: block;
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+  }
+}
+
+.resume__contacts,
+.resume__section {
+  padding: 0 35px;
+}
+
+.resume__contacts {
+  padding-top: 25px;
+
+  & li {
+    margin-bottom: 10px;
+    font-size: 12px;
+  }
+
+  & a {
+    color: inherit;
+    text-decoration: none;
+  }
+}
+
+.resume__section {
+  margin-top: 30px;
+
+  & h2 {
+    margin: 0 0 15px;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+
+  & li {
+    margin-bottom: 8px;
+    font-size: 12px;
+  }
+
+  & article {
+    margin-bottom: 20px;
+  }
+
+  & h3,
+  & p {
+    margin: 0 0 5px;
+    font-size: 12px;
+  }
+
+  & time {
+    font-size: 11px;
+  }
 }
