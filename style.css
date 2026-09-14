@@ -232,3 +232,49 @@ footer {
     line-height: 1.4;
   }
 }
+
+@media (max-width: 645px) {
+
+  .resume__contacts,
+  .resume__section {
+    padding: 25px 15px 0;
+    margin-top: 0;
+
+    & li {
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+  }
+}
+
+@media (max-width: 460px) {
+  .resume {
+    grid-template-columns: 1fr;
+  }
+
+  .resume__content {
+    & .wrapper {
+      padding: 25px 15px;
+    }
+
+    & .resume__experience {
+      padding: 0 15px;
+    }
+  }
+
+  .resume__contacts {
+    & li:first-child {
+      display: block;
+      font-size: 1.25rem;
+      font-weight: 600;
+    }
+  }
+
+  .resume__section {
+    & h2 {
+      font-size: 1rem;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+  }
+}
