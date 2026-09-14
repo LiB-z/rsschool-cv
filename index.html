@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#contacts">Contacts</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#language">Languages</a></li>
+        <li><a href="#skills">Skills</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="resume">
+    <aside class="resume__sidebar">
+      <div class="resume__photo">
+        <img src="img/photo.jpg" alt="Lidia Bereza">
+      </div>
+
+      <address class="resume__contacts" id="contacts">
+        <ul>
+          <li>
+            <a href="#content">Lidia Bereza</a>
+          </li>
+          <li>
+            <a href="tel:+79114885650">+7&nbsp;911&nbsp;488&nbsp;56&nbsp;50</a>
+          </li>
+          <li>
+            <a href="mailto:l.bereza.consult@gmail.com">
+              l.bereza.consult@gmail.com
+            </a>
+          </li>
+          <li>Russia, Kaliningrad</li>
+        </ul>
+      </address>
+
+      <section class="resume__section">
+        <h2 id="skills">Skills</h2>
+
+        <ul>
+          <li>HTML</li>
+          <li>CSS (Bootstrap, SCSS)</li>
+          <li>Tailwind</li>
+          <li>JavaScript</li>
+          <li>TypeScript</li>
+          <li>Vue 2 &amp; 3</li>
+          <li>Figma</li>
+        </ul>
+      </section>
+
+      <section class="resume__section">
+        <h2 id="education">Education</h2>
+
+        <article>
+          <h3>Immanuel Kant Baltic Federal University</h3>
+          <p>Specialization: Information and Communication Technologies and Communication Systems &quot;Integrated
+            information and communication systems and technologies&quot;</p>
+          <time datetime="2010">2010</time> –
+          <time datetime="2016">2016</time>
+        </article>
+
+        <article>
+          <h3>HTML Academy</h3>
+          <p>Interactive HTML, CSS, and JavaScript courses</p>
+          <time datetime="2021">2021</time> –
+          <time datetime="2021">2021</time>
+        </article>
+
+        <article>
+          <h3>RS School</h3>
+          <p>Full-Stack JavaScript 2026 Q3</p>
+          <time datetime="2026">2026</time> – &hellip;
+        </article>
+      </section>
+
+      <section class="resume__section">
+        <h2 id="language">Language</h2>
+        <ul>
+          <li>Russian</li>
+          <li>English</li>
+        </ul>
+      </section>
+
+    </aside>
+
+    <section class="resume__content">
+      <div class="wrapper">
+        <h1 id="content">Lidia Bereza</h1>
+        <p class="resume__position">Network Engineer</p>
+
+        <div class="resume__summary">
+          <p>
+            <strong>I am a network engineer.</strong> A few years ago, I became interested in frontend dev. I started
+            creating landing pages and blogs for myself, but it was just the beginning of my journey, and I lacked
+            deep
+            knowledge and practice.
+          </p>
+          <p>
+            Recently, <strong>I also participated in the web development of a simple web application.</strong>
+          </p>
+          <p>
+            And now, it’s time to learn something new!
+          </p>
+        </div>
+      </div>
+      <section class="resume__experience">
+        <h2>Experience</h2>
+
+        <article class="experience">
+          <header class="experience__header">
+            <h3>Network Engineer</h3>
+
+            <p>YaKlass</p>
+
+            <p>
+              <time datetime="2022">2022</time> –
+              Present
+            </p>
+          </header>
+
+          <ul class="experience__list">
+            <li>Collaborated with the development and infrastructure teams to troubleshoot software deployment, API
+              integrations, and server-side connectivity issues</li>
+            <li>
+              Documented system bugs and network-related anomalies to optimize platform uptime
+            </li>
+            <li>
+              Diagnosed and resolved high-level technical issues related to platform accessibility and application
+              delivery
+            </li>
+          </ul>
+        </article>
+
+
+        <article class="experience">
+          <header class="experience__header">
+            <h3>Bitrix24 Specialist (Web Development Department)</h3>
+
+            <p>&quot;CONSULT INFO. Internet Technologies&quot; LLC</p>
+
+            <p>
+              <time datetime="2017">2017</time> –
+              <time datetime="2020">2020</time>
+            </p>
+          </header>
+
+          <ul class="experience__list">
+            <li>Consulted on the optimization and automation of production and business processes</li>
+            <li>
+              Developed roadmaps, drafted technical specifications for developers, and provided full cycle support
+              during Bitrix24 CRM implementation.
+            </li>
+            <li>
+              Administered CRM companies and trained employees on working within the Bitrix24 ecosystem.
+            </li>
+          </ul>
+        </article>
+
+
+        <article class="experience">
+          <header class="experience__header">
+            <h3>Technical Support Engineer</h3>
+
+            <p>PJSC Rostelecom</p>
+
+            <p>
+              <time datetime="2014">2014</time> –
+              <time datetime="2017">2017</time>
+            </p>
+          </header>
+
+          <ul class="experience__list">
+            <li>Monitored, troubleshooted, and debugged network infrastructure.</li>
+            <li>
+              Ensured user access to the global Internet and other communication channels.
+            </li>
+            <li>
+              Provided technical assistance and consultation on configuring network equipment and software.
+            </li>
+          </ul>
+        </article>
+
+      </section>
+
+      <section class="resume__code">
+        <h2>Code Example</h2>
+        <div class="code">
+          <pre>
+            <code>
+function multiply(a, b){
+  return a * b
+}
+            </code>
+          </pre>
+        </div>
+      </section>
+    </section>
+  </main>
+  <footer class="footer">
+    <ul>
+      <li>
+        <a href="https://github.com/LiB-z"><img src="img/GitHub-logo.png" alt="GitHub link" height="50">
+        </a>
+      </li>
+      <li>&copy; 2026</li>
+      <li>
+        <a href="https://rs.school/courses/short-track"><img src="img/rss-logo.svg" alt="rs school" height="50"></a>
+      </li>
+    </ul>
+  </footer>
+</body>
+
+</html>
