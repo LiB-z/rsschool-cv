@@ -47,6 +47,20 @@ header {
   }
 }
 
+footer {
+  background: var(--dark-bg);
+  color: #fff;
+
+  & ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: .5rem;
+    color: #fff;
+    gap: 10px;
+  }
+}
+
 .resume__sidebar {
   background: var(--dark-bg);
   color: #fff;
@@ -111,4 +125,41 @@ header {
   & time {
     font-size: 11px;
   }
+}
+
+
+.resume__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  & .wrapper {
+    padding: 65px 55px;
+  }
+}
+
+.resume__header {
+  margin-bottom: 45px;
+
+  & h1 {
+    margin: 0;
+    font-size: 48px;
+    line-height: 0.95;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+}
+
+.resume__position {
+  margin: 12px 0 25px;
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.resume__summary {
+  max-width: 600px;
+  margin: 0;
+  font-size: 13px;
+  line-height: 1.5;
 }
